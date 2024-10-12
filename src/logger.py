@@ -13,8 +13,7 @@ logging.basicConfig(
     format="[%(asctime)s] %(levelname)s in %(module)s at %(funcName)s:%(lineno)d - %(message)s thread: %(threadName)s, process_id: %(process)d process_name: %(processName)s",
     level=logging.INFO
 )
-logger = logging
 
 
 if __name__ == "__main__":
-    logger.info("Logging has started.")
+    logging.info("Logging has started.")
